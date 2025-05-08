@@ -3,7 +3,7 @@ import portrait from "../assets/portrait_portfolio.webp";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="about">
       <div className="hero__header">
         <h1>Ervan CHIN - Développeur - Frontend</h1>
       </div>
