@@ -1,6 +1,4 @@
 .hero {
-  padding: 2rem;
-
   &__header {
     margin-bottom: 2rem;
     background-color: #d97c7c;
@@ -14,27 +12,35 @@
     flex-wrap: wrap;
   }
 
-  &__photo img {
-    width: 250px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
+  &__photo {
+    width: 30%;
+
+    & img {
+      max-width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
   }
 
   &__presentation {
     flex: 1;
     background-color: #ddd;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    & p {
+      padding: 3rem;
+    }
   }
 
   &__resume {
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
     gap: 1.5rem;
   }
 

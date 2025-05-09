@@ -1,7 +1,7 @@
 .skills {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1rem;
 
   &__title {
     display: flex;
@@ -20,6 +20,7 @@
   &__frameworks {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
     background-color: #ddd;
   }
