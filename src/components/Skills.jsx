@@ -8,24 +8,35 @@ const Skills = () => {
       <h2 className="skills__title">Compétences</h2>
       <div className="skills__content">
         <div className="skills__tools">
-          {Object.entries(tools).map(([name, src]) => (
-            <img
-              key={name}
-              src={src}
-              alt={name}
-              style={{ width: "50px", height: "50px", objectFit: "contain" }}
-            />
-          ))}
+          <div className="skills__h3">
+            <h3>Logiciels</h3>
+          </div>
+          <div className="skills__logos">
+            {Object.entries(tools).map(([name, src]) => (
+              <img
+                key={name}
+                src={src}
+                alt={name}
+                style={{ width: "50px", height: "50px", objectFit: "contain" }}
+              />
+            ))}
+          </div>
         </div>
+
         <div className="skills__frameworks">
-          {Object.entries(frameworks).map(([name, src]) => (
-            <img
-              key={name}
-              src={src}
-              alt={name}
-              style={{ width: "50px", height: "50px", objectFit: "contain" }}
-            />
-          ))}
+          <div className="skills__h3">
+            <h3>Langages et Frameworks</h3>
+          </div>
+          <div className="skills__logos">
+            {Object.entries(frameworks).map(([name, src]) => (
+              <img
+                key={name}
+                src={src}
+                alt={name}
+                style={{ width: "50px", height: "50px", objectFit: "contain" }}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
