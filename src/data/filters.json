@@ -1,0 +1,9 @@
+[
+  { "label": "Tous les projets", "value": "all" },
+  { "label": "Html et Css", "value": "html-css" },
+  { "label": "Javascript", "value": "javascript" },
+  { "label": "React", "value": "react" },
+  { "label": "Redux", "value": "redux" },
+  { "label": "Débug / SEO", "value": "debug-seo" },
+  { "label": "Planification", "value": "planification" }
+]
