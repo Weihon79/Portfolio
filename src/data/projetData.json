@@ -4,6 +4,8 @@
     "title": "Premiers pas sur le langage HTML",
     "category": "html-css",
     "image": "/assets/projets/riding-cities.webp",
+    "githubLink": "https://github.com/Weihon79/riding-cities",
+    "detailsLink": "/projets/1",
     "description": "Ce projet est une introduction aux fondamentaux du langage HTML. J'ai travaillé sur la mise à jour de la page web d’une association, en intégrant de nouveaux éléments conformément aux maquettes fournies."
   },
   {
@@ -11,6 +13,8 @@
     "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "category": "html-css",
     "image": "/assets/projets/bookie.webp",
+    "githubLink": "https://github.com/Weihon79/booki",
+    "detailsLink": "/projets/2",
     "description": "Dans ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS.La mission était d'intégrer l'interface responsive de leur site, avec à disposition les maquettes Figma pour mobile, tablette et desktop, ainsi que les images et une note de synthèse sur les spécificités du projet."
   },
   {
@@ -18,6 +22,8 @@
     "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
     "category": "html-css",
     "image": "/assets/projets/ohmyfood.webp",
+    "githubLink": "https://github.com/Weihon79/Ohmyfood",
+    "detailsLink": "/projets/3",
     "description": "Ce projet m'a amené à travailler sur l'interface mobile-first du site d’une start-up. J'ai utilisé Sass et implémenté des animations CSS et versionné mon projet avec Git et GitHub."
   },
   {
@@ -25,6 +31,8 @@
     "title": "Premiers pas sur le langage JavaScript",
     "category": "javascript",
     "image": "/assets/projets/printit.webp",
+    "githubLink": "https://github.com/Weihon79/Print-it-js",
+    "detailsLink": "/projets/4",
     "description": "Ce projet m'a initié au langage JavaScript en me chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif."
   },
   {
@@ -32,6 +40,8 @@
     "title": "Créez une page web dynamique avec JavaScript",
     "category": "javascript",
     "image": "/assets/projets/sophiebluel.webp",
+    "githubLink": "https://github.com/Weihon79/P6-SophieBluel-",
+    "detailsLink": "/projets/5",
     "description": "Ce projet m'a engagé à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API."
   },
   {
@@ -39,6 +49,8 @@
     "title": "Créez une application web de location immobilière avec React",
     "category": "react",
     "image": "/assets/projets/kasa.webp",
+    "githubLink": "https://github.com/Weihon79/p7-Kasa",
+    "detailsLink": "/projets/6",
     "description": "Dans ce projet, j'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive."
   },
   {
@@ -46,6 +58,8 @@
     "title": "Optimisez le référencement d'un site de photographe",
     "category": "debug-seo",
     "image": "/assets/projets/nina.webp",
+    "githubLink": "https://github.com/Weihon79/Nina-Carducci",
+    "detailsLink": "/projets/7",
     "description": "Dans ce projet, j'ai travaillé en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité."
   },
   {
@@ -53,6 +67,8 @@
     "title": "Débuggez le site d'une agence d'événementiel",
     "category": "debug-seo",
     "image": "/assets/projets/724events.webp",
+    "githubLink": "https://github.com/Weihon79/Debuggage-venementiel",
+    "detailsLink": "/projets/8",
     "description": "Dans ce projet, j'ai débuggé et finalisé le développement d'un site one-page. Mon premier objectif était d'examiner le code existant. J'ai utilisé les Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel."
   },
   {
@@ -60,6 +76,8 @@
     "title": "Implémentez le front-end d'une application bancaire avec React",
     "category": "redux",
     "image": "/assets/projets/argentbank.webp",
+    "githubLink": "https://github.com/Weihon79/ArgentBank-Frontend",
+    "detailsLink": "/projets/9",
     "description": "Dans ce projet, j'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale était d'intégrer le front-end avec le back-end via des appels API."
   },
   {
@@ -67,6 +85,7 @@
     "title": "Planifiez le développement du site de votre client",
     "category": "planification",
     "image": "/assets/projets/qwenta.webp",
+    "detailsLink": "/projets/10",
     "description": "Dans ce projet, j'ai été impliqué dans la planification du développement d'un site web, en entreprenant la veille technologique, les spécifications techniques, un outil de gestion et en présentant la solution technique. "
   }
 ]
