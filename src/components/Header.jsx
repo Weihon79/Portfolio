@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../assets/Logo_react_yinyang_portfolio.webp";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar__item navbar__logo">
+      <Link to="/" className="navbar__item navbar__logo">
         <img src={logo} alt="Logo principal" title="Mon Logo" />
-      </div>
+      </Link>
       <div className="navbar__item">
         <a href="#about">À propos</a>
       </div>

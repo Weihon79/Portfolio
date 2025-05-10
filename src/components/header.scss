@@ -2,33 +2,59 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding: 1rem 2rem;
   background-color: #f0d0d0;
 
-  .navbar__item {
-    flex: 1;
+  &__item {
     text-align: center;
 
-    a {
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    & a {
       color: black;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 700;
 
       &:hover {
         text-decoration: underline;
       }
     }
 
-    img {
+    & img {
       height: 50px;
       object-fit: contain;
     }
+
+    &:last-child {
+      text-align: right;
+    }
   }
 
-  .navbar__logo {
+  &__logo {
     text-align: left;
   }
 
-  .navbar__item:last-child {
-    text-align: right;
+  &__theme-toggle {
+    display: flex;
+    gap: 1rem;
+
+    & button {
+      font-size: 1rem;
+      border-radius: 25px;
+      padding: 0.5rem;
+    }
+  }
+}
+
+.theme-btn {
+  cursor: pointer;
+  width: 38px;
+
+  &:hover {
+    transform: scale(1.2);
   }
 }

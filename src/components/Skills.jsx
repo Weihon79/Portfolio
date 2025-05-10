@@ -1,6 +1,6 @@
 import React from "react";
-import tools from "../assets/svg/svgTools.js";
-import frameworks from "../assets/svg/svgFrameworks.js";
+import svgTools from "../assets/svg/svgTools.js";
+import svgTech from "../assets/svg/svgFrameworks.js";
 
 const Skills = () => {
   return (
@@ -12,13 +12,16 @@ const Skills = () => {
             <h3>Logiciels</h3>
           </div>
           <div className="skills__logos">
-            {Object.entries(tools).map(([name, src]) => (
-              <img
+            {Object.entries(svgTools).map(([name, { src, url }]) => (
+              <a
                 key={name}
-                src={src}
-                alt={name}
-                style={{ width: "50px", height: "50px", objectFit: "contain" }}
-              />
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Voir la doc ${name}`}
+              >
+                <img src={src} alt={name} />
+              </a>
             ))}
           </div>
         </div>
@@ -28,13 +31,16 @@ const Skills = () => {
             <h3>Langages et Frameworks</h3>
           </div>
           <div className="skills__logos">
-            {Object.entries(frameworks).map(([name, src]) => (
-              <img
+            {Object.entries(svgTech).map(([name, { src, url }]) => (
+              <a
                 key={name}
-                src={src}
-                alt={name}
-                style={{ width: "50px", height: "50px", objectFit: "contain" }}
-              />
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Voir la doc ${name}`}
+              >
+                <img src={src} alt={name} />
+              </a>
             ))}
           </div>
         </div>
