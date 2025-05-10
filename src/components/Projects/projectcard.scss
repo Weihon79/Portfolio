@@ -10,7 +10,7 @@
   // Animation pour l'apparition de la carte
   @keyframes fadeInUp {
     from {
-      opacity: 0;
+      opacity: 0.5;
       transform: translateY(30px); // Fait apparaître la carte depuis le bas
     }
     to {
