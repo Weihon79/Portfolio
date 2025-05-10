@@ -1,0 +1,26 @@
+.carousel {
+  display: flex;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  &__arrow {
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
