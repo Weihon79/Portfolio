@@ -80,7 +80,8 @@ Carousel.propTypes = {
       title: PropTypes.string.isRequired,
       category: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
+      githubLink: PropTypes.string.isRequired,
+      detailsLink: PropTypes.string.isRequired,
       // eslint-disable-next-line prettier/prettier
     })
   ).isRequired,

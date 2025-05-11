@@ -10,7 +10,7 @@
   },
   {
     "id": "p2",
-    "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "title": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
     "category": "html-css",
     "image": "/assets/projets/bookie.webp",
     "githubLink": "https://github.com/Weihon79/booki",
@@ -19,7 +19,7 @@
   },
   {
     "id": "p3",
-    "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
+    "title": "Améliorer l'interface d'un site mobile avec des animations CSS",
     "category": "html-css",
     "image": "/assets/projets/ohmyfood.webp",
     "githubLink": "https://github.com/Weihon79/Ohmyfood",
@@ -37,7 +37,7 @@
   },
   {
     "id": "p5",
-    "title": "Créez une page web dynamique avec JavaScript",
+    "title": "Créer une page web dynamique avec JavaScript",
     "category": "javascript",
     "image": "/assets/projets/sophiebluel.webp",
     "githubLink": "https://github.com/Weihon79/P6-SophieBluel-",
@@ -46,7 +46,7 @@
   },
   {
     "id": "p6",
-    "title": "Créez une application web de location immobilière avec React",
+    "title": "Créer une application web de location immobilière avec React",
     "category": "react",
     "image": "/assets/projets/kasa.webp",
     "githubLink": "https://github.com/Weihon79/p7-Kasa",
@@ -55,7 +55,7 @@
   },
   {
     "id": "p7",
-    "title": "Optimisez le référencement d'un site de photographe",
+    "title": "Optimiser le référencement d'un site de photographe",
     "category": "debug-seo",
     "image": "/assets/projets/nina.webp",
     "githubLink": "https://github.com/Weihon79/Nina-Carducci",
@@ -64,7 +64,7 @@
   },
   {
     "id": "p8",
-    "title": "Débuggez le site d'une agence d'événementiel",
+    "title": "Débugger le site d'une agence d'événementiel",
     "category": "debug-seo",
     "image": "/assets/projets/724events.webp",
     "githubLink": "https://github.com/Weihon79/Debuggage-venementiel",
@@ -73,7 +73,7 @@
   },
   {
     "id": "p9",
-    "title": "Implémentez le front-end d'une application bancaire avec React",
+    "title": "Implémenter le front-end d'une application bancaire avec React",
     "category": "redux",
     "image": "/assets/projets/argentbank.webp",
     "githubLink": "https://github.com/Weihon79/ArgentBank-Frontend",
@@ -82,7 +82,7 @@
   },
   {
     "id": "p10",
-    "title": "Planifiez le développement du site de votre client",
+    "title": "Planifier le développement du site de votre client",
     "category": "planification",
     "image": "/assets/projets/qwenta.webp",
     "detailsLink": "/projets/10",

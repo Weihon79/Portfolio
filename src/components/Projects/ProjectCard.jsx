@@ -7,7 +7,19 @@ function ProjectCard({ projet }) {
       <img src={projet.image} alt={projet.title} />
       <div className="project-card__description">
         <h2>{projet.title}</h2>
-        <p>{projet.description}</p>
+        <div className="project-card__buttons">
+          <a
+            href={projet.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card__btn"
+          >
+            Code GitHub
+          </a>
+          <a href={projet.detailsLink} className="project-card__btn">
+            Voir détails
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -20,7 +32,8 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired,
+    detailsLink: PropTypes.string.isRequired,
   }).isRequired,
 };
 
