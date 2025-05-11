@@ -1,0 +1,23 @@
+.return-btn {
+  display: flex;
+  gap: 5rem;
+
+  &__item {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      background-color: blue;
+      color: white;
+    }
+
+    &:active {
+      background-color: green;
+    }
+  }
+}
