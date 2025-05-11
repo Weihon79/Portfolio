@@ -32,7 +32,7 @@ li {
 section {
   max-width: 1440px;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 1rem;
 }
 
@@ -41,4 +41,8 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+h2 {
+  margin-bottom: 2rem;
 }
