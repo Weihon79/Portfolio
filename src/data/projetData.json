@@ -96,8 +96,15 @@
     "id": "p10",
     "title": "Planifier le développement du site de votre client",
     "category": "planification",
-    "image": "/assets/projets/qwenta.webp",
+    "images": [
+      "/assets/projets/qwenta.webp",
+      "/assets/projets/specifications-techniques.webp",
+      "/assets/projets/kanban.webp",
+      "/assets/projets/veille.webp",
+      "/assets/projets/presentation.webp"
+    ],
+    "githubLink": "https://github.com/Weihon79/p11-Planification",
     "detailsLink": "/projets/10",
-    "description": "Dans ce projet, j'ai été impliqué dans la planification du développement d'un site web, en entreprenant la veille technologique, les spécifications techniques, un outil de gestion et en présentant la solution technique. "
+    "description": "Ce projet m'implique dans la planification du développement d'un site web.\n\nMon rôle consiste à planifier le développement du site web, sans intervenir directement dans le codage. J'aurai accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.\n\nJe vais entreprendre une veille technologique pour rester informé des dernières tendances et technologies pertinentes pour le projet. Cela implique l'utilisation d'un système de veille pour suivre les évolutions dans le domaine du développement web.\n\nJe serai chargé de rédiger les spécifications techniques du projet. Cela comprendra l'identification des besoins fonctionnels et la décomposition des fonctionnalités en tâches spécifiques.\n\nJe vais utiliser un outil de gestion de projet, comme Notion, pour organiser le projet et créer un tableau Kanban. Cela m'aidera à suivre le déroulement du projet de manière structurée et efficace.\n\nEnfin, je présenterai la solution technique."
   }
 ]

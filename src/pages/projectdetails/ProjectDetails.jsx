@@ -11,6 +11,11 @@ export default function ProjectDetails() {
     return <Navigate to="/404" />;
   }
 
+  // Vérifie si l'image est un tableau ou une seule image
+  const images = Array.isArray(project.images)
+    ? project.images
+    : [project.image];
+
   return (
     <div>
       <Navbar />
@@ -18,7 +23,14 @@ export default function ProjectDetails() {
         <h1>{project.title}</h1>
         <div className="details__description">
           <div className="details__description__image-container">
-            <img src={project.image} alt={project.title} />
+            {/* Si images est un tableau, afficher toutes les images */}
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`${project.title} - Image ${index + 1}`}
+              />
+            ))}
           </div>
           <div className="details__description__text-container">
             <p style={{ whiteSpace: "pre-line" }}>{project.description}</p>
@@ -30,18 +42,21 @@ export default function ProjectDetails() {
               Voir le code sur GitHub
             </a>
           </div>
-          <iframe
-            src={project.projectLink}
-            title={`Aperçu de ${project.name}`}
-            width="100%"
-            height="600"
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              marginTop: "1rem",
-            }}
-            loading="lazy"
-          />
+          {/* Vérification si projectLink existe avant d'afficher l'iframe */}
+          {project.projectLink && (
+            <iframe
+              src={project.projectLink}
+              title={`Aperçu de ${project.title}`}
+              width="100%"
+              height="600"
+              style={{
+                border: "1px solid #ccc",
+                borderRadius: "8px",
+                marginTop: "1rem",
+              }}
+              loading="lazy"
+            />
+          )}
         </div>
       </section>
     </div>
