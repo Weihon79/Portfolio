@@ -12,15 +12,37 @@ export default function ProjectDetails() {
   }
 
   return (
-    <div className="details">
+    <div>
       <Navbar />
-      <section className="details__header">
+      <section className="details">
         <h1>{project.title}</h1>
-        <img src={project.image} alt={project.title} />
-        <p>{project.description}</p>
-        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-          Voir le code sur GitHub
-        </a>
+        <div className="details__description">
+          <div className="details__description__image-container">
+            <img src={project.image} alt={project.title} />
+          </div>
+          <div className="details__description__text-container">
+            <p style={{ whiteSpace: "pre-line" }}>{project.description}</p>
+            <a
+              href={project.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Voir le code sur GitHub
+            </a>
+          </div>
+          <iframe
+            src={project.projectLink}
+            title={`Aperçu de ${project.name}`}
+            width="100%"
+            height="600"
+            style={{
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              marginTop: "1rem",
+            }}
+            loading="lazy"
+          />
+        </div>
       </section>
     </div>
   );
