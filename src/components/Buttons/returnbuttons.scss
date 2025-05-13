@@ -1,11 +1,12 @@
 .return-btn {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
 
   &__item {
     border: none;
     border-radius: 5px;
     padding: 1rem;
+    font-size: 22px;
     cursor: pointer;
 
     transition: transform 0.3s ease-in-out;
