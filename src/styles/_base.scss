@@ -16,7 +16,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
-  background-color: #fff;
   color: #000;
 }
 
@@ -29,15 +28,13 @@ li {
   list-style-type: none;
 }
 
-section {
+.content {
   max-width: 1440px;
   margin: 0 auto;
-  margin-bottom: 2rem;
   padding: 1rem;
 }
 
 nav {
-  margin-bottom: 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;

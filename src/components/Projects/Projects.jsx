@@ -5,9 +5,11 @@ import Carousel from "./Carousel";
 
 function Projects({ projet }) {
   return (
-    <section className="projects" id="projects">
-      <h2>Mes projets</h2>
-      <Carousel projets={projet} />
+    <section className="projects-background">
+      <div className="projects content" id="projects">
+        <h2>Mes projets</h2>
+        <Carousel projets={projet} />
+      </div>
     </section>
   );
 }

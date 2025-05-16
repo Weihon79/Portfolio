@@ -9,20 +9,25 @@
   }
 
   &__arrow {
-    font-size: 3rem;
+    font-size: 4.5rem;
     background: none;
     border: none;
     cursor: pointer;
     user-select: none;
+    color: white;
 
     transition: transform 0.3s ease-in-out;
 
+    @media screen and (max-width: 1200px) {
+      font-size: 4rem;
+    }
+
     @media screen and (max-width: 500px) {
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     &:hover {
-      transform: scale(1.5);
+      transform: scale(1.2);
     }
   }
 }

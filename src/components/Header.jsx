@@ -8,45 +8,32 @@ const Navbar = () => {
   const isDetailPage = location.pathname.startsWith("/projets/");
 
   return (
-    <nav className="navbar">
-      <Link to="/" className="navbar__item navbar__logo">
-        <img src={logo} alt="Logo principal" title="Mon Logo" />
-      </Link>
+    <header className="header-background">
+      <nav className="navbar content">
+        <Link to="/" className="navbar__item navbar__logo">
+          <img src={logo} alt="Logo principal" title="Mon Logo" />
+        </Link>
 
-      {isDetailPage ? (
-        <ReturnButtons />
-      ) : (
-        <>
-          <div className="navbar__item">
-            <a href="#about">À propos</a>
-          </div>
-          <div className="navbar__item">
-            <a href="#skills">Compétences</a>
-          </div>
-          <div className="navbar__item">
-            <a href="#projects">Projets</a>
-          </div>
-          <div className="navbar__item">
-            <a href="#contact">Contact</a>
-          </div>
-        </>
-      )}
-
-      <div className="navbar__theme-toggle">
-        <button
-          className="theme-btn theme-btn--light"
-          aria-label="Activer le thème clair"
-        >
-          <i className="fas fa-sun"></i>
-        </button>
-        <button
-          className="theme-btn theme-btn--dark"
-          aria-label="Activer le thème sombre"
-        >
-          <i className="fas fa-moon"></i>
-        </button>
-      </div>
-    </nav>
+        {isDetailPage ? (
+          <ReturnButtons />
+        ) : (
+          <>
+            <div className="navbar__item">
+              <a href="#about">À propos</a>
+            </div>
+            <div className="navbar__item">
+              <a href="#skills">Compétences</a>
+            </div>
+            <div className="navbar__item">
+              <a href="#projects">Projets</a>
+            </div>
+            <div className="navbar__item">
+              <a href="#contact">Contact</a>
+            </div>
+          </>
+        )}
+      </nav>
+    </header>
   );
 };
 

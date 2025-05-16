@@ -1,6 +1,8 @@
 .footer {
-  background-color: #ddd;
+  background: url(/assets/backgrounds/navbar.webp);
+  background-repeat: no-repeat;
   padding: 4rem;
+  color: white;
 
   &__container {
     display: flex;

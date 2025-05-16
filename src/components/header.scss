@@ -1,11 +1,26 @@
+.header-background {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(181deg, #ff7c00, #190bef);
+  box-shadow: inset 0px 0px 20px 6px #06ebd6;
+}
+
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 1rem 2rem;
-  background-color: #f0d0d0;
+  gap: 5.5rem;
+  padding: 1rem 3rem;
+
+  @media screen and (max-width: 1024px) {
+    gap: 3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    gap: 1rem;
+  }
 
   &__item {
     &:hover {
@@ -13,8 +28,8 @@
     }
 
     & a {
-      color: black;
-      font-size: 18px;
+      color: white;
+      font-size: 22px;
       font-weight: 700;
 
       &:hover {
@@ -34,17 +49,6 @@
 
   &__logo {
     text-align: left;
-  }
-
-  &__theme-toggle {
-    display: flex;
-    gap: 1rem;
-
-    & button {
-      font-size: 1rem;
-      border-radius: 25px;
-      padding: 0.5rem;
-    }
   }
 }
 

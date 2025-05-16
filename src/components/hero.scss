@@ -1,7 +1,13 @@
+.hero-background {
+  background: url(/assets/backgrounds/hero.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(229 229 229 / 97%);
+}
+
 .hero {
   &__header {
     margin-bottom: 2rem;
-    background-color: #d97c7c;
     padding: 1rem;
     max-width: max-content;
   }
@@ -19,24 +25,26 @@
 
   &__photo {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
     & img {
-      max-width: 100%;
+      max-width: 150px;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 15px;
     }
   }
 
   &__presentation {
     flex: 1;
-    background-color: #ddd;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
     & p {
-      padding: 3rem;
+      padding: 1rem;
       font-size: 18px;
       font-weight: 700;
     }
