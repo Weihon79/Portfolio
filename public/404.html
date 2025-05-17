@@ -2,19 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <script type="text/javascript">
-      const path = window.location.pathname;
-
+    <script>
+      // On récupère le chemin demandé
+      var path = window.location.pathname;
+      // Si on est pas déjà sous /Portfolio, on le rajoute
       if (!path.startsWith("/Portfolio")) {
         window.location.replace("/Portfolio" + path);
       } else {
-        // Pas de redirection si on est déjà dans /Portfolio, on reste là
-        // Et on peut afficher un message ou rediriger vers la home si besoin
-        // Par exemple, rediriger vers la home /Portfolio/
-        if (path !== "/Portfolio/" && !path.startsWith("/Portfolio/projets")) {
-          window.location.replace("/Portfolio/");
-        }
-        // Sinon on ne fait rien pour éviter boucle infinie
+        // Sinon on redirige vers index.html, qui est la page d’accueil de la SPA
+        window.location.replace("/Portfolio/index.html");
       }
     </script>
   </head>
