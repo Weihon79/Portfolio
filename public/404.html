@@ -5,12 +5,16 @@
     <script type="text/javascript">
       const path = window.location.pathname;
 
-      // Si le chemin ne commence pas déjà par "/Portfolio", on ajoute "/Portfolio"
       if (!path.startsWith("/Portfolio")) {
         window.location.replace("/Portfolio" + path);
       } else {
-        // Sinon on recharge simplement la page (évite la boucle infinie)
-        window.location.replace(path);
+        // Pas de redirection si on est déjà dans /Portfolio, on reste là
+        // Et on peut afficher un message ou rediriger vers la home si besoin
+        // Par exemple, rediriger vers la home /Portfolio/
+        if (path !== "/Portfolio/" && !path.startsWith("/Portfolio/projets")) {
+          window.location.replace("/Portfolio/");
+        }
+        // Sinon on ne fait rien pour éviter boucle infinie
       }
     </script>
   </head>
