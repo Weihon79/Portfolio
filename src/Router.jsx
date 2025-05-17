@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import ProjectDetails from "./pages/projectdetails/ProjectDetails";
 import NotFound from "./pages/notfound/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const AppRouter = () => {
   return (
     <Router basename="/Portfolio">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets/:id" element={<ProjectDetails />} />
