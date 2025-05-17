@@ -27,8 +27,9 @@ const Hero = () => {
             </p>
             <div className="hero__resume animate-on-load animate-delay-4">
               <a
-                href="/Portfolio/assets/cv/CV_Ervan_CHIN.pdf"
+                href="/Portfolio/assets/cv/cv_ervan_chin.pdf"
                 className="btn btn--cv"
+                download
               >
                 Télécharger mon CV
               </a>
