@@ -29,7 +29,6 @@ const Hero = () => {
               <a
                 href="/Portfolio/assets/cv/CV_Ervan_CHIN.pdf"
                 className="btn btn--cv"
-                download
               >
                 Télécharger mon CV
               </a>
