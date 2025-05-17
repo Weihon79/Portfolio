@@ -55,7 +55,7 @@
     "category": "react",
     "image": "/Portfolio/assets/projets/kasa.webp",
     "githubLink": "https://github.com/Weihon79/p7-Kasa",
-    "detailsLink": "/Portfolio/projets/6",
+    "detailsLink": "/projets/6",
     "description": "Dans ce projet, vous allez implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.\n\nVous travaillerez sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.\n\nVous utiliserez React Router pour configurer la navigation entre les différentes pages de l'application. Cela vous permettra de comprendre comment gérer efficacement le routage dans une application web moderne.\n\nLe projet se concentrera exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.\n\nVous débuterez le projet avec Vite, un outil qui simplifie la configuration initiale d'une application React.\nVous utiliserez également Node.js pour exécuter du code JavaScript en dehors du navigateur.",
     "projectLink": "https://weihon79.github.io/p7-Kasa/#/"
   },
