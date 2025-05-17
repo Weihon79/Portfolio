@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <header className="header-background">
-      <nav className="navbar content">
+      <nav className="navbar content animate-on-load">
         <Link to="/" className="navbar__item navbar__logo">
           <img src={logo} alt="Logo principal" title="Mon Logo" />
         </Link>

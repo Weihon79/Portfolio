@@ -3,7 +3,7 @@
   top: 0;
   z-index: 1000;
   background: linear-gradient(181deg, #ff7c00, #190bef);
-  box-shadow: inset 0px 0px 20px 6px #06ebd6;
+  box-shadow: inset 0px 0px 20px 6px #89fff4a1;
 }
 
 .navbar {
@@ -12,7 +12,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 5.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem;
 
   @media screen and (max-width: 1024px) {
     gap: 3rem;

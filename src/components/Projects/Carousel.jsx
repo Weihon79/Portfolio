@@ -39,7 +39,7 @@ function Carousel({ projets }) {
   const visibleProjects = projets.slice(startIndex, startIndex + itemsPerSlide);
 
   return (
-    <div className="carousel">
+    <div className="carousel animate-on-load animate-delay-2">
       <button
         type="button"
         className="carousel__arrow left"

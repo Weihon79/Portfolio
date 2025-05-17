@@ -7,7 +7,7 @@ function Projects({ projet }) {
   return (
     <section className="projects-background">
       <div className="projects content" id="projects">
-        <h2>Mes projets</h2>
+        <h2 className="animate-on-load">Mes projets</h2>
         <Carousel projets={projet} />
       </div>
     </section>

@@ -58,4 +58,35 @@
       }
     }
   }
+  &__notification {
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.3s ease;
+    animation: fadeIn 0.3s ease;
+    color: #fff;
+
+    &::before {
+      content: "🔔 ";
+    }
+
+    background-color: #28a745; // Vert pour succès par défaut
+
+    &.error {
+      background-color: #dc3545;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }

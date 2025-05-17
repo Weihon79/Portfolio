@@ -6,13 +6,15 @@ const Skills = () => {
   return (
     <section className="skills-background">
       <div className="skills content" id="skills">
-        <h2 className="skills__title">Compétences</h2>
+        <h2 className="skills__title animate-on-load animate-delay-1">
+          Compétences
+        </h2>
         <div className="skills__content">
           <div className="skills__tools">
-            <div className="skills__h3">
+            <div className="skills__h3 animate-on-load animate-delay-2">
               <h3>Logiciels</h3>
             </div>
-            <div className="skills__logos">
+            <div className="skills__logos animate-on-load animate-delay-3">
               {Object.entries(svgTools).map(([name, { src, url }]) => (
                 <a
                   key={name}
@@ -28,10 +30,10 @@ const Skills = () => {
           </div>
 
           <div className="skills__frameworks">
-            <div className="skills__h3">
+            <div className="skills__h3 animate-on-load animate-delay-4">
               <h3>Langages et Frameworks</h3>
             </div>
-            <div className="skills__logos">
+            <div className="skills__logos animate-on-load animate-delay-5">
               {Object.entries(svgTech).map(([name, { src, url }]) => (
                 <a
                   key={name}

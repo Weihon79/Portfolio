@@ -21,9 +21,9 @@ export default function ProjectDetails() {
       <Navbar />
       <div className="details-background">
         <section className="details content">
-          <h1>{project.title}</h1>
+          <h1 className="animate-on-load animate-delay-1">{project.title}</h1>
           <div className="details__description">
-            <div className="details__description__image-container">
+            <div className="details__description__image-container animate-on-load animate-delay-2">
               {/* Si images est un tableau, afficher toutes les images */}
               {images.map((image, index) => (
                 <img
@@ -33,7 +33,7 @@ export default function ProjectDetails() {
                 />
               ))}
             </div>
-            <div className="details__description__text-container">
+            <div className="details__description__text-container animate-on-load animate-delay-3">
               <p style={{ whiteSpace: "pre-line" }}>{project.description}</p>
               <a
                 href={project.githubLink}
@@ -46,6 +46,7 @@ export default function ProjectDetails() {
             {/* Vérification si projectLink existe avant d'afficher l'iframe */}
             {project.projectLink && (
               <iframe
+                className="animate-on-load animate-delay-4"
                 src={project.projectLink}
                 title={`Aperçu de ${project.title}`}
                 width="100%"

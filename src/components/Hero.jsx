@@ -5,16 +5,16 @@ const Hero = () => {
   return (
     <section className="hero-background">
       <div className="hero content" id="about">
-        <div className="hero__header">
+        <div className="hero__header animate-on-load animate-delay-1">
           <h1>Ervan CHIN - Développeur - Frontend</h1>
         </div>
 
         <div className="hero__content">
-          <div className="hero__photo">
+          <div className="hero__photo animate-on-load animate-delay-2">
             <img src={portrait} alt="Ervan CHIN" />
           </div>
 
-          <div className="hero__presentation">
+          <div className="hero__presentation animate-on-load animate-delay-3">
             <p>
               Passionné par le développement web moderne, je crée des interfaces
               Front-end à la fois esthétiques, responsives et accessibles.
@@ -25,14 +25,15 @@ const Hero = () => {
               freelance, afin de continuer à apprendre tout en apportant une
               vraie valeur ajoutée.
             </p>
-            <div className="hero__resume">
+            <div className="hero__resume animate-on-load animate-delay-4">
               <a
-                href="/assets/CV_Ervan_CHIN.pdf"
+                href="/assets/cv/CV_Ervan_CHIN.pdf"
                 className="btn btn--cv"
                 download
               >
                 Télécharger mon CV
               </a>
+              {/*
               <a
                 href="https://www.linkedin.com/in/ton-profil"
                 className="btn btn--linkedin"
@@ -41,6 +42,7 @@ const Hero = () => {
               >
                 IN
               </a>
+               */}
             </div>
           </div>
         </div>
