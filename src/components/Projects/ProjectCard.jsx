@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ projet }) {
   // Vérifie si 'images' existe et est un tableau
@@ -21,9 +22,9 @@ function ProjectCard({ projet }) {
           >
             Lien vers Github
           </a>
-          <a href={projet.detailsLink} className="project-card__btn">
+          <Link to={projet.detailsLink} className="project-card__btn">
             Voir détails
-          </a>
+          </Link>
         </div>
       </div>
     </div>
