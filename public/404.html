@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <script type="text/javascript">
-      // Redirige vers la bonne route React
       const path = window.location.pathname;
-      const newPath = "/Portfolio" + path;
-      window.location.replace(newPath);
+
+      // Si le chemin ne commence pas déjà par "/Portfolio", on ajoute "/Portfolio"
+      if (!path.startsWith("/Portfolio")) {
+        window.location.replace("/Portfolio" + path);
+      } else {
+        // Sinon on recharge simplement la page (évite la boucle infinie)
+        window.location.replace(path);
+      }
     </script>
   </head>
   <body></body>
