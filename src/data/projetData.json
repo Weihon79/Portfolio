@@ -5,7 +5,7 @@
     "category": "html-css",
     "image": "/Portfolio/assets/projets/riding-cities.webp",
     "githubLink": "https://github.com/Weihon79/riding-cities",
-    "detailsLink": "/projets/1",
+    "detailsLink": "/Portfolio/projets/1",
     "description": "Ce projet marque mes premiers pas dans le développement web en HTML. L'objectif était de mettre à jour la page web d'une association en respectant les maquettes fournies via Figma. Ma mission principale consistait à créer une nouvelle section sur la page, incluant un titre et deux boutons de téléchargement de plannings.\n\nJ'ai appris à structurer correctement les éléments HTML tout en adaptant les styles CSS existants à cette nouvelle section. Ce projet m’a permis de comprendre les bases de l’intégration web, ainsi que la manière dont HTML et CSS interagissent pour construire une interface cohérente.\n\nL’environnement de développement utilisé était Visual Studio Code, ce qui m’a également familiarisé avec les outils fondamentaux du front-end.",
     "projectLink": "https://weihon79.github.io/riding-cities/"
   },
@@ -15,7 +15,7 @@
     "category": "html-css",
     "image": "/Portfolio/assets/projets/bookie.webp",
     "githubLink": "https://github.com/Weihon79/booki",
-    "detailsLink": "/projets/2",
+    "detailsLink": "/Portfolio/projets/2",
     "description": "Ce projet m’a permis de renforcer mes compétences en intégration HTML et CSS à travers la création de la page d’accueil responsive d’une agence de voyage. À partir de maquettes Figma disponibles pour mobile, tablette et desktop, j’ai conçu une interface entièrement adaptée à tous les formats d’écran.\n\nMon objectif principal était de reproduire fidèlement le design en structurant le contenu avec HTML et en stylisant chaque élément via CSS, sans framework. J’ai également été amené à créer mes propres composants d’interface pour respecter l’organisation visuelle et fonctionnelle du site.\n\nCe projet m’a permis de mieux comprendre les enjeux du responsive design, ainsi que l’importance d’une structure de code claire pour une intégration fidèle aux maquettes. J’ai travaillé dans Visual Studio Code, consolidant ainsi ma maîtrise des outils essentiels au développement front-end.",
     "projectLink": "https://weihon79.github.io/booki/"
   },
@@ -25,7 +25,7 @@
     "category": "html-css",
     "image": "/Portfolio/assets/projets/ohmyfood.webp",
     "githubLink": "https://github.com/Weihon79/Ohmyfood",
-    "detailsLink": "/projets/3",
+    "detailsLink": "/Portfolio/projets/3",
     "description": "Ce projet m’a amené à travailler sur l’interface mobile-first du site d’une start-up. J’ai intégré une maquette en suivant cette approche, en partant du format mobile avant d’adapter le design au format desktop.\n\nLes maquettes étaient disponibles sur Figma pour mobile et desktop, accompagnées de tous les éléments nécessaires à l’intégration. Cette méthode m’a permis de mieux comprendre l’importance d’un design adaptatif et réactif.\n\nJ’ai également mis en œuvre plusieurs animations CSS pour rendre l’interface plus vivante et interactive, renforçant ainsi l’expérience utilisateur.\n\nPour structurer et optimiser les styles, j’ai utilisé Sass, un préprocesseur CSS qui m’a permis d’écrire un code plus clair, modulaire et maintenable.\n\nEnfin, j’ai versionné l’ensemble du projet avec Git et GitHub, consolidant ainsi mes compétences en gestion de version et en bonnes pratiques de développement collaboratif.",
     "projectLink": "https://weihon79.github.io/Ohmyfood/"
   },
@@ -35,7 +35,7 @@
     "category": "javascript",
     "image": "/Portfolio/assets/projets/printit.webp",
     "githubLink": "https://github.com/Weihon79/Print-it-js",
-    "detailsLink": "/projets/4",
+    "detailsLink": "/Portfolio/projets/4",
     "description": "Ce projet m’a initié au langage JavaScript à travers la création d’un carrousel interactif sur le site statique d’une imprimerie.\n\nJ’ai commencé par explorer les fondamentaux de JavaScript, un langage essentiel pour rendre les sites web dynamiques et interactifs. Mon objectif principal était d’enrichir l’expérience utilisateur en intégrant un carrousel fonctionnel au sein d’un code HTML existant.\n\nCe travail m’a permis de comprendre comment JavaScript interagit avec le HTML et le CSS pour créer des éléments interactifs. J’ai appris à manipuler le DOM, à gérer les événements et à structurer mon code de manière claire.\n\nL’environnement utilisé était Visual Studio Code pour le développement, avec GitHub pour versionner et héberger le projet.\n\nCe projet m’a donné un premier aperçu concret de la programmation avec JavaScript dans un contexte de développement web réel.",
     "projectLink": "https://weihon79.github.io/Print-it-js/"
   },
@@ -45,7 +45,7 @@
     "category": "javascript",
     "image": "/Portfolio/assets/projets/sophiebluel.webp",
     "githubLink": "https://github.com/Weihon79/P6-SophieBluel-",
-    "detailsLink": "/projets/5",
+    "detailsLink": "/Portfolio/projets/5",
     "description": "Ce projet m’a engagé à créer une page web dynamique pour une architecte d’intérieur, en utilisant JavaScript et en interagissant avec une API.\n\nJ’ai travaillé exclusivement sur la partie Front-End, en développant la page de présentation des réalisations à partir d’un fichier HTML fourni. Ce travail m’a permis de gérer les événements utilisateurs et de manipuler le DOM avec JavaScript.\n\nJ’ai également conçu une page de connexion pour l’administrateur ainsi qu’une modale pour l’ajout de nouveaux médias, développées entièrement from scratch. Ces fonctionnalités m’ont permis d’approfondir mes compétences en JavaScript.\n\nPour la première fois, j’ai eu accès à un back-end permettant de tester les fonctionnalités en conditions réelles. J’ai ainsi appris à envoyer des requêtes et à gérer les réponses d’une API, une compétence essentielle dans le développement web moderne.\n\nLes outils utilisés incluaient Figma pour les maquettes, Visual Studio Code pour le développement, et GitHub pour le versioning du projet.",
     "projectLink": "https://sophie-bluel-architect.vercel.app/"
   },
@@ -55,7 +55,7 @@
     "category": "react",
     "image": "/Portfolio/assets/projets/kasa.webp",
     "githubLink": "https://github.com/Weihon79/p7-Kasa",
-    "detailsLink": "/projets/6",
+    "detailsLink": "/Portfolio/projets/6",
     "description": "Dans ce projet, vous allez implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.\n\nVous travaillerez sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur.\n\nVous utiliserez React Router pour configurer la navigation entre les différentes pages de l'application. Cela vous permettra de comprendre comment gérer efficacement le routage dans une application web moderne.\n\nLe projet se concentrera exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.\n\nVous débuterez le projet avec Vite, un outil qui simplifie la configuration initiale d'une application React.\nVous utiliserez également Node.js pour exécuter du code JavaScript en dehors du navigateur.",
     "projectLink": "https://weihon79.github.io/p7-Kasa/#/"
   },
@@ -65,7 +65,7 @@
     "category": "debug-seo",
     "image": "/Portfolio/assets/projets/nina.webp",
     "githubLink": "https://github.com/Weihon79/Nina-Carducci",
-    "detailsLink": "/projets/7",
+    "detailsLink": "/Portfolio/projets/7",
     "description": "Dans ce projet, j’ai travaillé en tant que développeur freelance pour améliorer le référencement naturel (SEO) d’un site web.\n\nMa première mission a été d’identifier les problèmes liés au chargement et à la structure du site, afin de comprendre ce qui nuisait à sa performance.\n\nJ’ai ensuite proposé des améliorations concrètes pour optimiser la vitesse, le code, et l’accessibilité. En mettant ces recommandations en œuvre, j’ai appris à utiliser des outils comme Lighthouse et Wave pour mesurer les résultats.\n\nEnfin, j’ai rédigé un rapport détaillé avant/après avec captures d’écran et explications techniques, mettant en lumière l’impact des optimisations sur le référencement et l’expérience utilisateur.",
     "projectLink": "https://weihon79.github.io/Nina-Carducci/"
   },
@@ -75,7 +75,7 @@
     "category": "debug-seo",
     "image": "/Portfolio/assets/projets/724events.webp",
     "githubLink": "https://github.com/Weihon79/Debuggage-venementiel",
-    "detailsLink": "/projets/8",
+    "detailsLink": "/Portfolio/projets/8",
     "description": "Dans ce projet, j’ai été chargé de débugger et finaliser le développement d’un site one-page.\n\nMa première étape a consisté à examiner en profondeur le code existant. Pour cela, j’ai utilisé les Chrome DevTools afin d’identifier les bugs et problèmes signalés dans la version actuelle du site.\n\nUne fois les erreurs identifiées, je les ai corrigées en mobilisant mes compétences en JavaScript et en tirant parti d’outils spécifiques à React, comme React Developer Tools.\n\nJ’ai également complété le cahier de recette, un document essentiel regroupant tous les scénarios de test (tests unitaires et fonctionnels) pour valider le bon fonctionnement du site.\n\nLe projet a été géré avec Yarn pour les dépendances et Node.js pour exécuter le code en local, facilitant ainsi les tests et le développement.\n\nEnfin, j’ai utilisé GitHub pour versionner mon travail et Visual Studio Code comme environnement de développement pour corriger les bugs et finaliser l’intégration.",
     "projectLink": "https://724events-ac.vercel.app/"
   },
@@ -88,7 +88,7 @@
       "/Portfolio/assets/projets/swagger.webp"
     ],
     "githubLink": "https://github.com/Weihon79/ArgentBank-Frontend",
-    "detailsLink": "/projets/9",
+    "detailsLink": "/Portfolio/projets/9",
     "description": "Dans ce projet, j’ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour offrir une expérience utilisateur dynamique et réactive.\n\nMa mission principale a été d’intégrer le front-end avec le back-end via des appels API. J’ai rédigé des requêtes vers une API REST afin d’assurer une communication fluide entre le client et le serveur.\n\nJ’ai utilisé React pour concevoir l’interface utilisateur, en développant un tableau de bord complet et responsive à destination des utilisateurs de l’application.\n\nPour la gestion des données, j’ai utilisé Redux, ce qui m’a permis de centraliser et de synchroniser l’état global de l’application de manière efficace.\n\nJ’ai également utilisé Swagger pour définir les points d’accès de l’API et modéliser les interactions avec les données de transaction. Cet outil m’a aidé à documenter les routes et actions disponibles sur l’API.\n\nEnfin, j’ai utilisé Node.js pour exécuter le code JavaScript côté serveur, ce qui m’a permis d’approfondir mes compétences en développement full-stack.",
     "projectLink": "https://argentbank.vercel.app/"
   },
@@ -104,7 +104,7 @@
       "/Portfolio/assets/projets/presentation.webp"
     ],
     "githubLink": "https://github.com/Weihon79/p11-Planification",
-    "detailsLink": "/projets/10",
+    "detailsLink": "/Portfolio/projets/10",
     "description": "Ce projet m'implique dans la planification du développement d'un site web.\n\nMon rôle consiste à planifier le développement du site web, sans intervenir directement dans le codage. J'aurai accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.\n\nJe vais entreprendre une veille technologique pour rester informé des dernières tendances et technologies pertinentes pour le projet. Cela implique l'utilisation d'un système de veille pour suivre les évolutions dans le domaine du développement web.\n\nJe serai chargé de rédiger les spécifications techniques du projet. Cela comprendra l'identification des besoins fonctionnels et la décomposition des fonctionnalités en tâches spécifiques.\n\nJe vais utiliser un outil de gestion de projet, comme Notion, pour organiser le projet et créer un tableau Kanban. Cela m'aidera à suivre le déroulement du projet de manière structurée et efficace.\n\nEnfin, je présenterai la solution technique."
   }
 ]
