@@ -6,7 +6,7 @@ import NotFound from "./pages/notfound/NotFound";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets/:id" element={<ProjectDetails />} />
