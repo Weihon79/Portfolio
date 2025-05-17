@@ -47,4 +47,6 @@ h2 {
 html,
 body {
   overflow-x: hidden;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
 }
