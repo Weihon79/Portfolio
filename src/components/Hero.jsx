@@ -27,7 +27,7 @@ const Hero = () => {
             </p>
             <div className="hero__resume animate-on-load animate-delay-4">
               <a
-                href="assets/cv/CV_Ervan_CHIN.pdf"
+                href="/Portfolio/assets/cv/CV_Ervan_CHIN.pdf"
                 className="btn btn--cv"
                 download
               >
