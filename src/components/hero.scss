@@ -6,6 +6,10 @@
   padding-top: 100px;
   color: rgb(229 229 229 / 97%);
 
+  @media screen and (max-width: 768px) {
+    background-attachment: scroll !important;
+  }
+
   @media screen and (max-width: 559px) {
     padding-top: 150px;
   }
