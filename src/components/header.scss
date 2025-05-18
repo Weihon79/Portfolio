@@ -1,6 +1,7 @@
 .header-background {
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1000;
   background: linear-gradient(181deg, #ff7c00, #190bef);
   box-shadow: inset 0px 0px 20px 6px #89fff4a1;
