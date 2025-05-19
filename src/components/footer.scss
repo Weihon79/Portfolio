@@ -2,14 +2,6 @@
 
 .footer {
   background: url(/assets/backgrounds/navbar.webp);
-  background-repeat: no-repeat;
   padding: 4rem;
   color: v.$main-txt-color;
-
-  &__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
 }

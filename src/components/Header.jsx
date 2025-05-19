@@ -8,8 +8,8 @@ const Navbar = () => {
   const isDetailPage = location.pathname.startsWith("/projets/");
 
   return (
-    <header className="header-background">
-      <nav className="navbar content animate-on-load">
+    <header className="header-background w-100">
+      <nav className="navbar content flex-center flex-wrap animate-on-load">
         <Link to="/" className="navbar__item navbar__logo">
           <img src={logo} alt="Logo principal" title="Mon Logo" />
         </Link>

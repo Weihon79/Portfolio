@@ -5,35 +5,7 @@
 }
 
 .skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &__content {
-    display: flex;
-    width: 100%;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  &__tools,
-  * £ &__frameworks {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  &__h3 {
-    text-align: center;
-  }
-
   &__logos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
     filter: brightness(1.2);
 
     & a {
@@ -48,7 +20,7 @@
     & img {
       width: 65px;
       height: 65px;
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 }

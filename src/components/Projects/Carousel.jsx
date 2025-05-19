@@ -39,7 +39,7 @@ function Carousel({ projets }) {
   const visibleProjects = projets.slice(startIndex, startIndex + itemsPerSlide);
 
   return (
-    <div className="carousel animate-on-load animate-delay-2">
+    <div className="carousel flex-center animate-on-load animate-delay-2">
       <button
         type="button"
         className="carousel__arrow left"
@@ -52,7 +52,7 @@ function Carousel({ projets }) {
         <i className="fa-solid fa-angles-left"></i>
       </button>
 
-      <div className="carousel__container">
+      <div className="carousel__container flex">
         {visibleProjects.map((item) => (
           <ProjectCard key={item.id} projet={item} />
         ))}

@@ -37,13 +37,13 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact flex-center flex-column" id="contact">
       <h2 className="contact__title animate-on-load animate-delay-1">
         Contact
       </h2>
 
       <form
-        className="contact__form animate-on-load animate-delay-2"
+        className="contact__form flex flex-column gap-2 w-100 animate-on-load animate-delay-2"
         ref={form}
         onSubmit={handleSubmit}
       >
@@ -57,10 +57,12 @@ const Contact = () => {
         <input type="email" name="email" placeholder="Email" required />
         <input type="text" name="subject" placeholder="Sujet" required />
         <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit">Envoyer</button>
+        <button type="submit" className="align-s-center">
+          Envoyer
+        </button>
 
         {successMessage && (
-          <p className="contact__notification">{successMessage}</p>
+          <p className="contact__notification mt-2">{successMessage}</p>
         )}
       </form>
     </section>

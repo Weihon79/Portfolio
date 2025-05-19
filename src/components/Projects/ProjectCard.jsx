@@ -10,10 +10,10 @@ function ProjectCard({ projet }) {
 
   return (
     <div className="project-card">
-      <img src={imageSrc} alt={projet.title} />
-      <div className="project-card__description">
+      <img src={imageSrc} alt={projet.title} className="w-100 h-100 i-cover" />
+      <div className="project-card__description flex-center flex-column">
         <h2>{projet.title}</h2>
-        <div className="project-card__buttons">
+        <div className="project-card__buttons flex-center flex-wrap gap-1">
           <a
             href={projet.githubLink}
             target="_blank"

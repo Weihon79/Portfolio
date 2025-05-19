@@ -20,9 +20,9 @@ export default function ProjectDetails() {
     <div>
       <Navbar />
       <div className="details-background">
-        <section className="details content">
+        <section className="details content flex-center flex-column">
           <h1 className="animate-on-load animate-delay-1">{project.title}</h1>
-          <div className="details__description">
+          <div className="details__description flex-center flex-wrap gap-1">
             <div className="details__description__image-container animate-on-load animate-delay-2">
               {/* Si images est un tableau, afficher toutes les images */}
               {images.map((image, index) => (
@@ -30,10 +30,11 @@ export default function ProjectDetails() {
                   key={index}
                   src={image}
                   alt={`${project.title} - Image ${index + 1}`}
+                  className="w-100"
                 />
               ))}
             </div>
-            <div className="details__description__text-container animate-on-load animate-delay-3">
+            <div className="details__description__text-container flex flex-column gap-1 animate-on-load animate-delay-3">
               <p style={{ whiteSpace: "pre-line" }}>{project.description}</p>
               <a
                 href={project.githubLink}

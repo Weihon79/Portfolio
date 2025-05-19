@@ -29,6 +29,14 @@
   flex-wrap: wrap;
 }
 
+.align-s-center {
+  align-self: center;
+}
+
+.align-i-start {
+  align-items: flex-start;
+}
+
 /* ============================
    Text utilities
 ============================ */
@@ -87,6 +95,24 @@
   padding-bottom: 2rem;
 }
 
+.pd-1 {
+  padding: 1rem;
+}
+.pd-2 {
+  padding: 2rem;
+}
+
+/* ============================
+   Gap utilities
+============================ */
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
 /* ============================
    Width utilities
 ============================ */
@@ -100,4 +126,18 @@
 
 .max-w-screen {
   max-width: 100vw;
+}
+
+/* ============================
+   Height utilities
+============================ */
+.h-100 {
+  height: 100%;
+}
+
+/* ============================
+   Image utilities
+============================ */
+.i-cover {
+  object-fit: cover;
 }

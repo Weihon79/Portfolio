@@ -3,17 +3,12 @@
 .header-background {
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1000;
-  background: linear-gradient(181deg, #ff7c00, #190bef);
-  box-shadow: inset 0px 0px 20px 6px #89fff4a1;
+  background: v.$header-bg;
+  box-shadow: v.$header-shadow;
 }
 
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   gap: 5.5rem;
   padding: 1rem;
 
@@ -42,24 +37,6 @@
 
     & img {
       height: 50px;
-      object-fit: contain;
     }
-
-    &:last-child {
-      text-align: right;
-    }
-  }
-
-  &__logo {
-    text-align: left;
-  }
-}
-
-.theme-btn {
-  cursor: pointer;
-  width: 38px;
-
-  &:hover {
-    transform: scale(1.2);
   }
 }

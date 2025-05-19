@@ -6,7 +6,7 @@ import Carousel from "./Carousel";
 function Projects({ projet }) {
   return (
     <section className="projects-background">
-      <div className="projects content" id="projects">
+      <div className="projects content flex-center flex-column" id="projects">
         <h2 className="animate-on-load">Mes projets</h2>
         <Carousel projets={projet} />
       </div>

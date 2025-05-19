@@ -1,11 +1,7 @@
 @use "../../styles/variables.scss" as v;
 
 .carousel {
-  display: flex;
-  align-items: center;
-
   &__container {
-    display: flex;
     padding: 1rem;
     gap: 2rem;
   }

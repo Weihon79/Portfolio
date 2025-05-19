@@ -20,7 +20,7 @@ const ReturnButtons = () => {
   };
 
   return (
-    <div className="return-btn">
+    <div className="return-btn flex">
       <button onClick={handleReturnToTop} className="return-btn__item">
         Retour à l'accueil
       </button>
