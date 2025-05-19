@@ -52,7 +52,7 @@ function Carousel({ projets }) {
         <i className="fa-solid fa-angles-left"></i>
       </button>
 
-      <div className="carousel__container flex">
+      <div className="carousel__container flex pd-1 gap-2">
         {visibleProjects.map((item) => (
           <ProjectCard key={item.id} projet={item} />
         ))}

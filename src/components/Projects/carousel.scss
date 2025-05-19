@@ -1,11 +1,6 @@
 @use "../../styles/variables.scss" as v;
 
 .carousel {
-  &__container {
-    padding: 1rem;
-    gap: 2rem;
-  }
-
   &__arrow {
     font-size: 4.5rem;
     background: none;
