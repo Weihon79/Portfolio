@@ -43,6 +43,7 @@ function Carousel({ projets }) {
       <button
         type="button"
         className="carousel__arrow left"
+        aria-label="Image précédente"
         onClick={(e) => {
           e.preventDefault();
           handlePrev();
@@ -61,6 +62,7 @@ function Carousel({ projets }) {
       <button
         type="button"
         className="carousel__arrow right"
+        aria-label="Image suivante"
         onClick={(e) => {
           e.preventDefault();
           handleNext();
