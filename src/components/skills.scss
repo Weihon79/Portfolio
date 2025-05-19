@@ -1,5 +1,7 @@
+@use "../styles/variables" as v;
+
 .skills-background {
-  color: white;
+  color: v.$main-txt-color;
 }
 
 .skills {
@@ -15,7 +17,7 @@
   }
 
   &__tools,
-  &__frameworks {
+  * £ &__frameworks {
     display: flex;
     flex-direction: column;
     width: 100%;

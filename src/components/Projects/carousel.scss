@@ -1,3 +1,5 @@
+@use "../../styles/variables.scss" as v;
+
 .carousel {
   display: flex;
   align-items: center;
@@ -14,7 +16,7 @@
     border: none;
     cursor: pointer;
     user-select: none;
-    color: white;
+    color: v.$main-txt-color;
 
     transition: transform 0.3s ease-in-out;
 

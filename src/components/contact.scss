@@ -1,5 +1,7 @@
+@use "../styles/variables" as v;
+
 .contact {
-  color: white;
+  color: v.$main-txt-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +35,7 @@
       padding: 0.75rem 1.5rem;
       border: none;
       border-radius: 8px;
-      color: white;
+      color: v.$main-txt-color;
       font-weight: 600;
       background: linear-gradient(135deg, #ff6ec4, #7873f5);
       cursor: pointer;
@@ -62,7 +64,7 @@
     text-align: center;
     transition: opacity 0.3s ease;
     animation: fadeIn 0.3s ease;
-    color: #fff;
+    color: v.$main-txt-color;
 
     &::before {
       content: "🔔 ";

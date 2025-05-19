@@ -1,5 +1,7 @@
+@use "../../styles/variables" as v;
+
 .projects-background {
-  color: white;
+  color: v.$main-txt-color;
 }
 
 .projects {

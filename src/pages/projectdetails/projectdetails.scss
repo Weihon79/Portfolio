@@ -1,5 +1,7 @@
+@use "../../styles/variables" as v;
+
 .details-background {
-  color: white;
+  color: v.$main-txt-color;
   padding-top: 100px;
 
   @media screen and (max-width: 445px) {
@@ -44,13 +46,13 @@
           transform 0.1s;
 
         &:hover {
-          color: #1558b0;
+          color: v.$ghub-link-color;
           text-decoration: underline;
         }
 
         &:active {
           transform: scale(0.97);
-          color: #0d3c85;
+          color: v.$ghub-link-active;
         }
       }
     }

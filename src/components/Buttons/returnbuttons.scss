@@ -1,3 +1,5 @@
+@use "../../styles/variables" as v;
+
 .return-btn {
   display: flex;
   gap: 2rem;
@@ -8,7 +10,7 @@
     padding: 1rem 2rem;
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color: v.$main-txt-color;
     background: linear-gradient(328deg, #ff6ec4, #22b7d9);
     cursor: pointer;
     transition:
