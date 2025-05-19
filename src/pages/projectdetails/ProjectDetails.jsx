@@ -44,24 +44,24 @@ export default function ProjectDetails() {
                 Voir le code sur GitHub
               </a>
             </div>
-            {/* Vérification si projectLink existe avant d'afficher l'iframe */}
-            {project.projectLink && (
-              <iframe
-                className="animate-on-load animate-delay-4"
-                src={project.projectLink}
-                title={`Aperçu de ${project.title}`}
-                width="100%"
-                height="600"
-                style={{
-                  border: "1px solid #ccc",
-                  borderRadius: "8px",
-                  marginTop: "1rem",
-                  backgroundColor: "white",
-                }}
-                loading="lazy"
-              />
-            )}
           </div>
+          {/* Vérification si projectLink existe avant d'afficher l'iframe */}
+          {project.projectLink && (
+            <iframe
+              className="animate-on-load animate-delay-4"
+              src={project.projectLink}
+              title={`Aperçu de ${project.title}`}
+              width="100%"
+              height="600"
+              style={{
+                border: "1px solid #ccc",
+                borderRadius: "8px",
+                marginTop: "1rem",
+                backgroundColor: "white",
+              }}
+              loading="lazy"
+            />
+          )}
         </section>
       </div>
     </div>
