@@ -49,33 +49,51 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ervan CHIN",
-        "url": "https://weihon79.github.io/Portfolio/",
-        "image": "https://weihon79.github.io/Portfolio/assets/icon-rel.png",
-        "jobTitle": "Développeur Front-End React",
-        "sameAs": "https://github.com/weihon79",
-        "description": "Développeur front-end passionné par les interfaces modernes avec React. Portfolio, projets et contact.",
-        "knowsAbout": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React",
-          "Sass",
-          "Responsive Design",
-          "Accessibilité"
-        ],
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Ghisonaccia",
-          "postalCode": "20240",
-          "addressRegion": "Corse",
-          "addressCountry": "France"
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "name": "Ervan CHIN",
+            "url": "https://weihon79.github.io/Portfolio/",
+            "image": "https://weihon79.github.io/Portfolio/assets/icon-rel.png",
+            "jobTitle": "Développeur Front-End React",
+            "description": "Développeur front-end passionné par les interfaces modernes avec React. Portfolio, projets et contact.",
+            "email": "mailto:ervan.chin.dev@gmail.com",
+            "sameAs": ["https://github.com/weihon79"],
+            "knowsAbout": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "React",
+              "Sass",
+              "Responsive Design",
+              "Accessibilité"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "name": "Portfolio Ervan CHIN",
+            "url": "https://weihon79.github.io/Portfolio/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://weihon79.github.io/Portfolio/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "LocalBusiness",
+            "name": "Ervan CHIN",
+            "image": "https://weihon79.github.io/Portfolio/assets/icon-rel.png",
+            "url": "https://weihon79.github.io/Portfolio/",
+            "email": "mailto:ervan.chin.dev@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ghisonaccia",
+              "postalCode": "20240",
+              "addressRegion": "Corse",
+              "addressCountry": "France"
+            }
+          }
+        ]
       }
     </script>
     <script type="module" crossorigin src="/Portfolio/assets/index-Bmmrlnlv.js"></script>
