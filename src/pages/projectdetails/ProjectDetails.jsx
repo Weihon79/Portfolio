@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import projects from "../../data/projetData.json";
-import Navbar from "../../components/Header";
+import Navbar from "../../components/Header/Header";
 
 export default function ProjectDetails() {
   const { id } = useParams();

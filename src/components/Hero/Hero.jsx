@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../assets/portrait_portfolio.webp";
+import portrait from "../../assets/portrait_portfolio.webp";
 
 const Hero = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../assets/Logo_react_yinyang_portfolio.webp";
+import logo from "../../assets/Logo_react_yinyang_portfolio.webp";
 import { Link, useLocation } from "react-router-dom";
-import ReturnButtons from "../components/Buttons/ReturnButtons";
+import ReturnButtons from "../Buttons/ReturnButtons";
 
 const Navbar = () => {
   const location = useLocation();

@@ -1,6 +1,6 @@
 import React from "react";
-import svgTools from "../assets/svg/svgTools.js";
-import svgTech from "../assets/svg/svgFrameworks.js";
+import svgTools from "../../assets/svg/svgTools.js";
+import svgTech from "../../assets/svg/svgFrameworks.js";
 
 const Skills = () => {
   return (

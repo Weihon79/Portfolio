@@ -1,12 +1,12 @@
 @use "./base.scss";
-@use "../components/header.scss";
-@use "../components/hero.scss";
-@use "../components/skills.scss";
+@use "../components/Header/header.scss";
+@use "../components/Hero/hero.scss";
+@use "../components/Skills/skills.scss";
 @use "../components/Projects/projects.scss";
 @use "../components/Projects/carousel.scss";
 @use "../components/Projects/projectcard.scss";
-@use "../components/contact.scss";
-@use "../components/footer.scss";
+@use "../components/Contact/contact.scss";
+@use "../components/Footer/footer.scss";
 @use "../pages/projectdetails/projectdetails.scss";
 @use "../pages/notfound/notfound.scss";
 @use "../components/Buttons/returnbuttons.scss";
