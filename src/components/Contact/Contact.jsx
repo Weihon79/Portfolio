@@ -47,16 +47,50 @@ const Contact = () => {
         ref={form}
         onSubmit={handleSubmit}
       >
-        <input type="text" name="user_lastname" placeholder="Nom" required />
+        <label htmlFor="lastname">Nom</label>
         <input
           type="text"
+          id="lastname"
+          name="user_lastname"
+          placeholder="Nom"
+          required
+        />
+
+        <label htmlFor="firstname">Prénom</label>
+        <input
+          type="text"
+          id="firstname"
           name="user_firstname"
           placeholder="Prénom"
           required
         />
-        <input type="email" name="email" placeholder="Email" required />
-        <input type="text" name="subject" placeholder="Sujet" required />
-        <textarea name="message" placeholder="Message" required></textarea>
+
+        <label htmlFor="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+
+        <label htmlFor="subject">Sujet</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Sujet"
+          required
+        />
+
+        <label htmlFor="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          required
+        ></textarea>
+
         <button type="submit" className="align-s-center">
           Envoyer
         </button>
