@@ -47,7 +47,9 @@ const Contact = () => {
         ref={form}
         onSubmit={handleSubmit}
       >
-        <label htmlFor="lastname">Nom</label>
+        <label htmlFor="lastname" className="sr-only">
+          Nom
+        </label>
         <input
           type="text"
           id="lastname"
@@ -56,7 +58,9 @@ const Contact = () => {
           required
         />
 
-        <label htmlFor="firstname">Prénom</label>
+        <label htmlFor="firstname" className="sr-only">
+          Prénom
+        </label>
         <input
           type="text"
           id="firstname"
@@ -65,7 +69,9 @@ const Contact = () => {
           required
         />
 
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" className="sr-only">
+          Email
+        </label>
         <input
           type="email"
           id="email"
@@ -74,7 +80,9 @@ const Contact = () => {
           required
         />
 
-        <label htmlFor="subject">Sujet</label>
+        <label htmlFor="subject" className="sr-only">
+          Sujet
+        </label>
         <input
           type="text"
           id="subject"
@@ -83,7 +91,9 @@ const Contact = () => {
           required
         />
 
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message" className="sr-only">
+          Message
+        </label>
         <textarea
           id="message"
           name="message"
